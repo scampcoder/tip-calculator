@@ -1,5 +1,5 @@
 function calculate(){
-  const amount = $('amount').val(); //amount value
+  const amount = $('#amount').val(); //amount value
   const percentage = $('#percentage').val(); //percent value
   const tip = amount * (percentage / 100); //tip calculations
   const total = Number(amount) + tip; //add for total
